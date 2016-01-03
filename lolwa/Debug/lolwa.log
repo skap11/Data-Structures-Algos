@@ -1,0 +1,28 @@
+﻿Build started 1/3/2016 12:28:48 AM.
+     1>Project "D:\HeadFirstC#DesignPatterns\StarbuzzCoffeeSolution\lolwa\lolwa.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ArrayLL Algorihms.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DoublePointers.cpp
+         DoublePointers.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\HeadFirstC#DesignPatterns\StarbuzzCoffeeSolution\Debug\ArrayLL Algorihms.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ArrayLL Algorihms.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\HeadFirstC#DesignPatterns\StarbuzzCoffeeSolution\Debug\ArrayLL Algorihms.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\HeadFirstC#DesignPatterns\StarbuzzCoffeeSolution\Debug\ArrayLL Algorihms.lib" /MACHINE:X86 "Debug\Add an Element in an LL.obj"
+         Debug\DeleteANodeLL.obj
+         Debug\DoublePointers.obj
+         Debug\FindTheDuplicatesInArray.obj
+         Debug\LinkedList.obj
+         Debug\MaxMinUsingMinComparisons.obj
+         Debug\MemoryLeak.obj
+         Debug\Segregate1s2s.obj
+         LINK : D:\HeadFirstC#DesignPatterns\StarbuzzCoffeeSolution\Debug\ArrayLL Algorihms.exe not found or not built by the last incremental link; performing full link
+         lolwa.vcxproj -> D:\HeadFirstC#DesignPatterns\StarbuzzCoffeeSolution\Debug\ArrayLL Algorihms.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\HeadFirstC#DesignPatterns\StarbuzzCoffeeSolution\Debug\ArrayLL Algorihms.exe;#1" /manifest "Debug\ArrayLL Algorihms.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\ArrayLL Algorihms.unsuccessfulbuild".
+         Touching "Debug\ArrayLL Algorihms.lastbuildstate".
+     1>Done Building Project "D:\HeadFirstC#DesignPatterns\StarbuzzCoffeeSolution\lolwa\lolwa.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.82

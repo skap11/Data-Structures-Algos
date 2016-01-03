@@ -1,0 +1,37 @@
+//To segregate 1s and 2s in 1 traversal of array.
+#include<stdio.h>
+#include<iostream>
+using namespace std;
+	void Segregate(int ar[],int n)
+	{
+		int left =0;
+		int right=n-1;
+		while(left<right)
+		{
+			while(ar[left]==0 && left < right)
+				left++;
+			while(ar[right]==1 && left < right)
+				right--;
+			if(left < right)
+			{
+				ar[left]=0;
+				ar[right]=1;
+				left++;
+				right--;
+			}
+		}
+	}
+
+	/*int main()
+	{
+		int ar[]={1,1,0,1,0,0,0,0};
+		int arr_len=sizeof(ar)/sizeof(ar[0]);
+		Segregate(ar,arr_len);
+		cout<<"The segregated array is ";
+		for(int i=0;i<arr_len;i++)
+		{
+			cout<<ar[i];
+		}
+		getchar();
+		return 0;
+	}*/
